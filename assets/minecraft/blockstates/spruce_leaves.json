@@ -1,0 +1,15 @@
+{
+    "__comment": "(c) 2018 MagicWorksMC",
+    "variants": {
+        "normal": [
+            { "model": "leaves_spruce" },
+            { "model": "leaves_spruce", "y":90 },
+            { "model": "leaves_spruce", "y":180 },
+            { "model": "leaves_spruce", "y":270 },
+            { "model": "leaves_spruce1" },
+            { "model": "leaves_spruce1", "y":90 },
+            { "model": "leaves_spruce1", "y":180 },
+            { "model": "leaves_spruce1", "y":270 }
+        ]
+    }
+}

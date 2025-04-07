@@ -1,0 +1,27 @@
+{
+	"__comment": "Designed by MagicWorksMC with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/othertextures/totendinghosts",
+		"texture": "item/othertextures/totendinghosts"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -4.5, 0, 7 ],
+			"to": [ 21, 19, 7.001 ],
+			"faces": {
+				"down": { "uv": [ 0, 3.999001, 1, 0 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 3, 1, 0 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 1.5, 16, 14 ], "texture": "#texture" },
+				"west": { "uv": [ 14, 0, 15.5, 2.5 ], "texture": "#texture" },
+				"east": { "uv": [ 13.5, 0, 15.5, 1.5 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale":  [ 3, 3, 3 ]
+		}
+	}
+}

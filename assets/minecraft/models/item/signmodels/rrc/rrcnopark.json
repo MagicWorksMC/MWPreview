@@ -1,0 +1,38 @@
+{
+	"__comment": "Designed by MagicWorksMC with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/signtextures/rrcnopark",
+		"texture": "item/signtextures/rrcnopark"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Voxels",
+			"from": [ 7.5, 0, 5.25 ],
+			"to": [ 7.75, 6.75, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 4.75, 11.75, 5, 16 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 5, 16, 5.25, 11.75 ], "texture": "#texture" },
+				"north": { "uv": [ 4.5, 9.25, 4.25, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 4.5, 9.25, 4.75, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 9.25, 4.25, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 4.25, 2.5, 0, 9.25 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ 0.6956, 4.1739, 0 ]
+		},
+		"head": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ 1.48, 11.13, 0 ],
+			"scale":  [ 4, 2.5, 2.5 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ 2.0869, 13.7, 0 ],
+			"scale":  [ 3, 3, 3 ]
+		}
+	}
+}

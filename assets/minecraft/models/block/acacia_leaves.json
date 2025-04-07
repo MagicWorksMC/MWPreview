@@ -1,0 +1,6 @@
+{
+    "parent": "block/leaves_0",
+    "textures": {
+        "texture": "block/acacia_leaves"
+    }
+}

@@ -1,0 +1,116 @@
+{
+	"__comment": "Designed by LegoCT01 with BDcraft Cubik PRO 0.86 Beta - http://bdcraft.net",
+	"textures": {
+		"particle": "block/birch1",
+		"texture": "block/birch1"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -1.6, 3.525, -1.6 ],
+			"to": [ 17.6, 3.6, 17.6 ],
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 0.6875, 13.425, -1.1875 ],
+			"to": [ 21.0875, 13.5, 19.2125 ],
+			"rotation": { "origin": [ 0.6875, 13.5, -1.1875 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 2.1875, 0, 1.1875 ],
+			"to": [ 2.2625, 19.2, 20.3875 ],
+			"rotation": { "origin": [ 2.1875, 0, 1.1875 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 10, 0.8, 0 ],
+			"to": [ 10.075, 20, 19.2 ],
+			"rotation": { "origin": [ 10, 0.8, 0 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 8, -4.2, -4 ],
+			"to": [ 8.075, 15, 15.2 ],
+			"rotation": { "origin": [ 8, 15, -4 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -3, 0, 10 ],
+			"to": [ 16.2, 19.2, 10.075 ],
+			"rotation": { "origin": [ -3, 0, 10 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 3.8125, -0.2, 3.1875 ],
+			"to": [ 23.0125, 19, 3.2625 ],
+			"rotation": { "origin": [ 3.8125, -0.2, 3.1875 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 1.625, -2.45, 5.5625 ],
+			"to": [ 20.825, 16.75, 5.6375 ],
+			"rotation": { "origin": [ 1.625, 16.75, 5.5625 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 3, 11.925, -2 ],
+			"to": [ 22.2, 12, 17.2 ],
+			"rotation": { "origin": [ 3, 12, -2 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 0, 45 ],
+			"translation":  [ 0, 1.3913, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 0, 45 ],
+			"translation":  [ 0, 1.3913, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_righthand": {
+			"scale":  [ 0.35, 0.35, 0.35 ]
+		},
+		"firstperson_lefthand": {
+			"scale":  [ 0.35, 0.35, 0.35 ]
+		}
+	}
+}

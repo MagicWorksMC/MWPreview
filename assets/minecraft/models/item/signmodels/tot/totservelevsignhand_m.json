@@ -1,0 +1,29 @@
+{
+	"__comment": "Designed by MagicWorksMC with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/signtextures/servelevsignextras",
+		"texture": "item/signtextures/servelevsignextras"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 7, 0, 7 ],
+			"to": [ 8.21875, 0.001, 10.125 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 5, 15, 12 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 12.5, 5, 15, 12 ], "texture": "#texture" },
+				"north": { "uv": [ 8, 15.999, 9, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 7, 15.999, 8, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 7, 15.999, 9, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 7, 15.999, 9, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ -90, 9180, 0 ],
+			"translation":  [ -0.8, -3.043, -27.11 ],
+			"scale":  [ 2.2, 2.2, 2.2 ]
+		}
+	}
+}

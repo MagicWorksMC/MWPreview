@@ -1,0 +1,28 @@
+{
+	"__comment": "Designed by MagicWorksMC with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"texture": "item/signtextures/rrcdotsignlaunchani5"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -16, 0, 7 ],
+			"to": [ 32, 24, 8 ],
+			"faces": {
+				"down": { "uv": [ 2.5, 10.5, 9, 12 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 9.5, 16, 10.5 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 7.5, 16, 15.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 8 ], "texture": "#texture" },
+				"west": { "uv": [ 8, 9, 10, 13 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 8, 10, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 90, 0, 0 ],
+			"translation":  [ -6, -6, 6.9565 ]
+		}
+	}
+}

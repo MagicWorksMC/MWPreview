@@ -1,0 +1,720 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft.item/diamond_hoe"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/tot/totelevator"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/tot/totdropelev"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsigntheday_m"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignthenight_m"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignhollyday_m"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignhollynight_m"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignwoodday_m"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignwoodnight_m"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsigntowerday_m"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsigntowernight_m"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignhotelday_m"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totsignhotelnight_m"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totesign"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totfesign"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totservelevsignhand_m"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/towerelvsign"
+        },
+        "threshold": 18
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/aframeclosedtot"
+        },
+        "threshold": 19
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/aframetechtot"
+        },
+        "threshold": 20
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothortondoor1_m"
+        },
+        "threshold": 21
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothortondoor2_m"
+        },
+        "threshold": 22
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothortondoor3_m"
+        },
+        "threshold": 23
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/totmaindoorl_m"
+        },
+        "threshold": 24
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/totmaindoorr_m"
+        },
+        "threshold": 25
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/servelevsign_m"
+        },
+        "threshold": 26
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/totservelevsignhand_m"
+        },
+        "threshold": 27
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/totpreshowdoor1"
+        },
+        "threshold": 28
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/totpreshowdoor2"
+        },
+        "threshold": 29
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/door5d_m"
+        },
+        "threshold": 30
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/door5e"
+        },
+        "threshold": 31
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothallwindow"
+        },
+        "threshold": 32
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothallwindow2pt1"
+        },
+        "threshold": 33
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothallwindow2pt2"
+        },
+        "threshold": 34
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/tothallwaydoor_m"
+        },
+        "threshold": 35
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/emc2tot_m"
+        },
+        "threshold": 36
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/clock5d_m"
+        },
+        "threshold": 37
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/clock5dbottom_m"
+        },
+        "threshold": 38
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/clock5dhand_m"
+        },
+        "threshold": 39
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/armghost"
+        },
+        "threshold": 40
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/monorailfront"
+        },
+        "threshold": 41
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/monorailback"
+        },
+        "threshold": 42
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/monoraildoorr"
+        },
+        "threshold": 43
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/endspiral"
+        },
+        "threshold": 44
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/endeye"
+        },
+        "threshold": 45
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/enddude"
+        },
+        "threshold": 46
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/endghost"
+        },
+        "threshold": 47
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/tot/endrod"
+        },
+        "threshold": 48
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcmiddlecar"
+        },
+        "threshold": 55
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/fliptest1"
+        },
+        "threshold": 56
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/stopsign"
+        },
+        "threshold": 57
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/vipparking"
+        },
+        "threshold": 58
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcpalm"
+        },
+        "threshold": 59
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcbev"
+        },
+        "threshold": 60
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcparking"
+        },
+        "threshold": 61
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcconcertpark"
+        },
+        "threshold": 62
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcvippark"
+        },
+        "threshold": 63
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/watchopposing"
+        },
+        "threshold": 64
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcbackcar2"
+        },
+        "threshold": 65
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcbackcar"
+        },
+        "threshold": 66
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcfrontcar"
+        },
+        "threshold": 67
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcrestraint"
+        },
+        "threshold": 68
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcnopark"
+        },
+        "threshold": 69
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/aframeevent"
+        },
+        "threshold": 70
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/tot/eventarrow"
+        },
+        "threshold": 71
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrctechrehears"
+        },
+        "threshold": 72
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/warning"
+        },
+        "threshold": 73
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcbackcar3"
+        },
+        "threshold": 74
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcbackcar4"
+        },
+        "threshold": 75
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/rrcbackcar5"
+        },
+        "threshold": 76
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcpreview"
+        },
+        "threshold": 77
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrccivicsign"
+        },
+        "threshold": 78
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/corkscrew"
+        },
+        "threshold": 79
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/othermodels/slinky/mrspell"
+        },
+        "threshold": 100
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla1"
+        },
+        "threshold": 120
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla2"
+        },
+        "threshold": 121
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla3"
+        },
+        "threshold": 122
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla4"
+        },
+        "threshold": 123
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla5"
+        },
+        "threshold": 124
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla6"
+        },
+        "threshold": 125
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla7"
+        },
+        "threshold": 126
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotgla8"
+        },
+        "threshold": 127
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal1"
+        },
+        "threshold": 128
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal2"
+        },
+        "threshold": 129
+      },
+       {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal3"
+        },
+        "threshold": 130
+      },
+       {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal4"
+        },
+        "threshold": 131
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal5"
+        },
+        "threshold": 132
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal6"
+        },
+        "threshold": 133
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal7"
+        },
+        "threshold": 134
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal8"
+        },
+        "threshold": 135
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal9"
+        },
+        "threshold": 136
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal10"
+        },
+        "threshold": 137
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal11"
+        },
+        "threshold": 138
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal12"
+        },
+        "threshold": 139
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal13"
+        },
+        "threshold": 140
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal14"
+        },
+        "threshold": 142
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal15"
+        },
+        "threshold": 143
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal16"
+        },
+        "threshold": 144
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal17"
+        },
+        "threshold": 145
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal18"
+        },
+        "threshold": 146
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal19"
+        },
+        "threshold": 147
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal20"
+        },
+        "threshold": 148
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcflipdot/dotlapetal21"
+        },
+        "threshold": 149
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/scute"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/scute/1" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/scute/2" },
+		{ "predicate": { "custom_model_data": 3}, "model": "item/scute/3" },
+		{ "predicate": { "custom_model_data": 4}, "model": "item/scute/4" },
+		{ "predicate": { "custom_model_data": 5}, "model": "item/scute/5" },
+		{ "predicate": { "custom_model_data": 6}, "model": "item/scute/6" },
+		{ "predicate": { "custom_model_data": 7}, "model": "item/scute/7" },
+		{ "predicate": { "custom_model_data": 8}, "model": "item/scute/8" },
+		{ "predicate": { "custom_model_data": 9}, "model": "item/scute/9" },
+		{ "predicate": { "custom_model_data": 10}, "model": "item/scute/10" },
+		{ "predicate": { "custom_model_data": 11}, "model": "item/scute/11" },
+		{ "predicate": { "custom_model_data": 12}, "model": "item/scute/12" },
+		{ "predicate": { "custom_model_data": 13}, "model": "item/scute/13" },
+		{ "predicate": { "custom_model_data": 14}, "model": "item/scute/14" },
+		{ "predicate": { "custom_model_data": 15}, "model": "item/scute/15" },
+		{ "predicate": { "custom_model_data": 16}, "model": "item/scute/16" },
+		{ "predicate": { "custom_model_data": 17}, "model": "item/scute/17" },
+		{ "predicate": { "custom_model_data": 18}, "model": "item/scute/18" },
+		{ "predicate": { "custom_model_data": 19}, "model": "item/scute/19" },
+		{ "predicate": { "custom_model_data": 20}, "model": "item/scute/20" },
+		{ "predicate": { "custom_model_data": 21}, "model": "item/scute/21" },
+		{ "predicate": { "custom_model_data": 22}, "model": "item/scute/22" },
+		{ "predicate": { "custom_model_data": 23}, "model": "item/scute/23" },
+		{ "predicate": { "custom_model_data": 24}, "model": "item/scute/24" },
+		{ "predicate": { "custom_model_data": 25}, "model": "item/scute/25" },
+		{ "predicate": { "custom_model_data": 26}, "model": "item/scute/26" },
+		{ "predicate": { "custom_model_data": 27}, "model": "item/scute/27" },
+		{ "predicate": { "custom_model_data": 28}, "model": "item/scute/28" },
+		{ "predicate": { "custom_model_data": 29}, "model": "item/scute/29" },
+		{ "predicate": { "custom_model_data": 30}, "model": "item/scute/30" },
+		{ "predicate": { "custom_model_data": 31}, "model": "item/scute/31"}
+	]
+}

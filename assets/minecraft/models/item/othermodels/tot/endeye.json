@@ -1,0 +1,29 @@
+{
+	"__comment": "Designed by MagicWorksMC with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/othertextures/totendingeyerod",
+		"texture": "item/othertextures/totendingeyerod"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0.5, 0, 7 ],
+			"to": [ 16.5, 16, 7.001 ],
+			"faces": {
+				"down": { "uv": [ 0, 3.999001, 1, 0 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 3, 1, 0 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 1.5, 1.5 ], "texture": "#texture" },
+				"south": { "uv": [ 9, 0, 16, 7.5 ], "texture": "#texture" },
+				"west": { "uv": [ 14, 0, 15.5, 2.5 ], "texture": "#texture" },
+				"east": { "uv": [ 13.5, 0, 15.5, 1.5 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 0, 180, 0 ],
+			"translation":  [ 0, 0, -9.043 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}
