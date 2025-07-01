@@ -718,7 +718,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/signmodels/rrc/rrcflipdot/rrcentrancesb"
+          "model": "minecraft:item/signmodels/rrc/rrcentrancesb"
         },
         "threshold": 150
       }
