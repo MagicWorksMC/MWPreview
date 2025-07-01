@@ -721,6 +721,30 @@
           "model": "minecraft:item/signmodels/rrc/rrcentrancesb"
         },
         "threshold": 150
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcentrancell"
+        },
+        "threshold": 151
+
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcentrancesr"
+        },
+        "threshold": 152
+
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcmarquee"
+        },
+        "threshold": 155
+
       }
     ]
   }
