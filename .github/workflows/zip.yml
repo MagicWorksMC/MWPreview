@@ -6,20 +6,31 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: pull latest and remove old file from repo
+
+    - name: Pull latest and remove old file from repo
       run: |
-        git config --global user.name "MrJityh"
-        git config --global user.email "MrJityh@gmail.com"
         git config pull.rebase false
         git pull
-        rm -f MWPreview-Release.zip
+        rm -f FlatPack-Release.zip
+
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'MWPreview-Release.zip'
+        filename: 'FlatPack-Release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
-    - name: push changes to remote
+
+    - name: Push changes to remote with previous commit info
       run: |
+        # Get previous commit message and author
+        COMMIT_MSG="$(git log -1 --pretty=%B)"
+        COMMIT_AUTHOR_NAME="$(git log -1 --pretty=%an)"
+        COMMIT_AUTHOR_EMAIL="$(git log -1 --pretty=%ae)"
+
+        # Configure git with previous author
+        git config user.name "$COMMIT_AUTHOR_NAME"
+        git config user.email "$COMMIT_AUTHOR_EMAIL"
+
+        # Commit using previous message and author
         git add -A
-        git commit -m "New Version Released"
+        git commit -m "$COMMIT_MSG" || echo "No changes to commit"
         git push --force
