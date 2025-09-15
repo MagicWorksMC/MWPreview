@@ -11,7 +11,7 @@ jobs:
       run: |
         git config pull.rebase false
         git pull
-        rm -f FlatPack-Release.zip
+        rm -f MWPreview-Release.zip
 
     - name: Archive Release
       uses: thedoctor0/zip-release@master
