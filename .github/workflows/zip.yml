@@ -16,7 +16,7 @@ jobs:
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'FlatPack-Release.zip'
+        filename: 'MWPreview-Release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
 
     - name: Push changes to remote with previous commit info
