@@ -753,6 +753,22 @@
         },
         "threshold": 180
 
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/slinkybackcar"
+        },
+        "threshold": 181
+
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ridemodels/slinkyfrontcar"
+        },
+        "threshold": 182
+
       }
     ]
   }
