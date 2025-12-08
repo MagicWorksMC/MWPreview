@@ -749,6 +749,14 @@
       {
         "model": {
           "type": "minecraft:model",
+          "model": "minecraft:item/signmodels/rrc/rrcgforce"
+        },
+        "threshold": 157
+
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
           "model": "minecraft:item/ridemodels/slinkymiddlecar"
         },
         "threshold": 180
