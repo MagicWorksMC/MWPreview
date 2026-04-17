@@ -23,14 +23,15 @@ jobs:
       run: |
         # Get previous commit message and author
         COMMIT_MSG="$(git log -1 --pretty=%B)"
-        COMMIT_AUTHOR_NAME="$(git log -1 --pretty=%an)"
+        COMMIT_AUTHOR_NAME="${{github.event.commits[0].author.username}}"
         COMMIT_AUTHOR_EMAIL="$(git log -1 --pretty=%ae)"
+        FINAL_MSG="Updated Archive - $COMMIT_AUTHOR_NAME - $COMMIT_MSG"
 
-        # Configure git with previous author
-        git config user.name "$COMMIT_AUTHOR_NAME"
-        git config user.email "$COMMIT_AUTHOR_EMAIL"
+        # Configure git with auto-zip author
+        git config user.name "Auto-Zip"
+        git config user.email "41898282+github-actions[bot]@://github.com"
 
         # Commit using previous message and author
         git add -A
-        git commit -m "$COMMIT_MSG" || echo "No changes to commit"
+        git commit -m "$FINAL_MSG" || echo "No changes to commit"
         git push --force
