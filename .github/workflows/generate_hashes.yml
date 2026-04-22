@@ -11,8 +11,8 @@ jobs:
   send-command:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait 30s
-        run: sleep 30
+      - name: Wait 5mins
+        run: sleep 300
         
       - name: Send Proxy RCON Command # Send frp generatehashes to proxy server
         uses: MagicWorksMC/RCON-Action@v0.2.0
