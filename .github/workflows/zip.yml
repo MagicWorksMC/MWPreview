@@ -1,5 +1,11 @@
 name: Create Archive
-on: [push]
+on:
+  push:
+    paths:
+      - "assets/**"
+      - "README.md"
+      - "pack.mcmeta"
+      - "pack.png"
 jobs:
   build:
     runs-on: ubuntu-latest
