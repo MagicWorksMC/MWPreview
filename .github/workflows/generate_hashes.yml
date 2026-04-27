@@ -1,7 +1,7 @@
 name: Update Server Hashes
 on:
   workflow_run:
-    workflows: ["Create Archive"] # Must match the 'name' in your other file
+    workflows: ["Create Release"] # Must match the 'name' in your other file
     types:
       - completed # Triggers when the other workflow finishes
 
