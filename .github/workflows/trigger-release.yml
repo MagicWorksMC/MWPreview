@@ -1,0 +1,23 @@
+name: Trigger Release Workflow
+
+on:
+  push:
+    paths:
+      - "pack.mcmeta"
+      
+  workflow_dispatch:
+
+jobs:
+  call-release-workflow:
+    # Path format: OWNER/REPO/.github/workflows/WORKFLOW_FILE.yml@REF
+    # Or relative path if in the SAME repository: ./.github/workflows/WORKFLOW_FILE.yml
+    uses: MagicWorksMC/shared-workflows/.github/workflows/auto-release-zip.yml@main
+    with:
+      PACK_NAME: 'MWPreview-Release.zip'
+    permissions:
+      contents: write # Required for softprops/action-gh-release to create tags and releases
+
+  call-update-hashes:
+    needs: call-release-workflow # Ensures release completes before running hash updates
+    uses: MagicWorksMC/shared-workflows/.github/workflows/update-hashes.yml@main
+    secrets: inherit # Passes organization secrets (PROXY_HOST, RCON_PASSWORD, etc.) to the workflow
